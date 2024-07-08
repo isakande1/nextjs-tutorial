@@ -1,3 +1,5 @@
+import { sql } from '@vercel/postgres';
+
 export async function fetchRevenue() {
   try {
     // We artificially delay a response for demo purposes.
